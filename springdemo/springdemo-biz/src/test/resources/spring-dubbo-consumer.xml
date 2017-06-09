@@ -12,6 +12,7 @@
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <dubbo:registry address="zookeeper://192.168.200.138:2181"/>
 
-    <dubbo:annotation package="com.qinchy.springdemo.service"/>
+    <!--消费者需要什么服务就都列在这里-->
+    <dubbo:reference id="greeting" interface="com.qinchy.springdemo.service.Greeting" />
 
 </beans>
