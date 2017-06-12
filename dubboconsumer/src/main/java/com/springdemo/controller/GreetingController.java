@@ -1,8 +1,9 @@
 package com.springdemo.controller;
 
-import com.qinchy.springdemo.service.Greeting;
+//import com.qinchy.springdemo.service.Greeting;
+import com.wwwarehouse.contractcenter.service.Greeting;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+//import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +21,7 @@ public class GreetingController {
     @RequestMapping("/greeting/{name}")
     public String hello(@PathVariable String name){
         System.out.println(greeting);
-        return greeting.greeting(name);
+        //return greeting.greeting(name);
+        return greeting.hello(name);
     }
 }
