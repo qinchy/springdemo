@@ -45,7 +45,7 @@
 		-->
 
 		<dependency>
-			<groupId>com.wwwarehouse</groupId>
+			<groupId>com.qinchy</groupId>
 			<artifactId>contractcenter-api</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<exclusions>

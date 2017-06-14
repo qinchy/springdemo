@@ -17,6 +17,6 @@
     <dubbo:reference id="greeting" interface="com.qinchy.springdemo.service.Greeting" />
     -->
 
-    <dubbo:reference id="greeting" interface="com.wwwarehouse.contractcenter.service.Greeting" />
+    <dubbo:reference id="greeting" interface="com.qinchy.contractcenter.service.Greeting" />
 
 </beans>
